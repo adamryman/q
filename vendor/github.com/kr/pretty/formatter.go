@@ -92,7 +92,7 @@ type visit struct {
 }
 
 func (p *printer) printValue(v reflect.Value, showType, quote bool) {
-	if p.depth > 10 {
+	if p.depth > 20 {
 		io.WriteString(p, "!%v(DEPTH EXCEEDED)")
 		return
 	}

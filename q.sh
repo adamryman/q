@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-set -euo pipefail
 
 logfile="q"
 logpath=$TMPDIR$logfile
